@@ -22,5 +22,8 @@
 
         <mapping class="com.vivek.entities.Question"/>
         <mapping class="com.vivek.entities.Answer"/>
+
+        <mapping class="com.vivek.entities.Employee"/>
+        <mapping class="com.vivek.entities.Project"/>
     </session-factory>
 </hibernate-configuration>
