@@ -16,5 +16,6 @@
         <property name="format_sql">true</property>
         <mapping class="com.vivek.entities.Student"/>
         <mapping class="com.vivek.entities.Address"/>
+        <mapping class="com.vivek.entities.StudentCert"/>
     </session-factory>
 </hibernate-configuration>
