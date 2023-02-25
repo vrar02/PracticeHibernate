@@ -11,11 +11,16 @@
         <property name="connection.username">root</property>
         <property name="connection.password">root</property>
         <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
-        <property name="hbm2ddl.auto">update</property>
+        <property name="hbm2ddl.auto">create</property>
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
         <mapping class="com.vivek.entities.Student"/>
         <mapping class="com.vivek.entities.Address"/>
         <mapping class="com.vivek.entities.StudentCert"/>
+        <mapping class="com.vivek.entities.Voter"/>
+        <mapping class="com.vivek.entities.Vote"/>
+
+        <mapping class="com.vivek.entities.Question"/>
+        <mapping class="com.vivek.entities.Answer"/>
     </session-factory>
 </hibernate-configuration>
