@@ -14,7 +14,7 @@ public class Question {
     @Column(name="question")
     private  String ques;
 
-    @OneToMany(mappedBy="question")
+    @OneToMany(mappedBy="question", cascade = CascadeType.ALL)
     List<Answer> answerList;
 
     public Question() {
