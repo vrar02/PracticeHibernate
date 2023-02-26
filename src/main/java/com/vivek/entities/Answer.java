@@ -43,4 +43,13 @@ public class Answer {
     public void setQuestion(Question question) {
         this.question = question;
     }
+
+    @Override
+    public String toString() {
+        return "Answer{" +
+                "id=" + id +
+                ", ans='" + ans + '\'' +
+                ", question=" + question +
+                '}';
+    }
 }

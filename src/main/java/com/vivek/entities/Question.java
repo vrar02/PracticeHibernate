@@ -43,4 +43,13 @@ public class Question {
     public void setAnswerList(List<Answer> answerList) {
         this.answerList = answerList;
     }
+
+    @Override
+    public String toString() {
+        return "Question{" +
+                "id=" + id +
+                ", ques='" + ques + '\'' +
+                ", answerList=" + answerList +
+                '}';
+    }
 }
