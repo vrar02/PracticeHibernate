@@ -14,6 +14,11 @@
         <property name="hbm2ddl.auto">update</property>
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
+
+<!--        //second level cache settings-->
+        <property name="cache.use_second_level_cache">true</property>
+        <property name="cache.region.factory_class">org.hibernate.cache.ehcache.internal.EhcacheRegionFactory</property>
+
         <mapping class="com.vivek.entities.Student"/>
         <mapping class="com.vivek.entities.Address"/>
         <mapping class="com.vivek.entities.StudentCert"/>
